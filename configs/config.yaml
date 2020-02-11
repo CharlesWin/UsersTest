@@ -1,0 +1,19 @@
+server:
+  port: 2112
+  #  InMemory/IM or Database/DB
+  dataType: "db"
+
+inMemory:
+  path: "./files/users.json"
+
+dataBase:
+  path: "./files/users.db"
+  tableName: "users"
+
+logger:
+  filename: "./log/username.log"
+  maxSize: 100
+  maxAge: 14
+  compress: "true"
+  fullLevelName: "false"
+  color: "false"

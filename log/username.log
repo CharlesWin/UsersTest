@@ -1,0 +1,199 @@
+[31m[parser.go:25::UsersTest/internal/parser.Read()][0m Feb 11 12:40:23.007 [F] [sid:94136870] open ./file/users.json: The system cannot find the path specified.
+[31m[parser.go:30::UsersTest/internal/parser.Read()][0m Feb 11 12:42:04.781 [F] [sid:738364039] parsing time ""Tuesday 20 Oct 1990"" as ""2006-01-02T15:04:05Z07:00"": cannot parse "Tuesday 20 Oct 1990"" as "2006"
+[31m[parser.go:35::UsersTest/internal/parser.Read()][0m Feb 11 12:59:05.133 [F] [sid:3179628687] json: cannot unmarshal array into Go value of type map[int]parser.User
+[31m[parser.go:35::UsersTest/internal/parser.Read()][0m Feb 11 13:01:42.531 [F] [sid:4112362454] json: cannot unmarshal array into Go value of type map[int]parser.User
+[31m[parser.go:36::UsersTest/internal/parser.Read()][0m Feb 11 13:07:35.357 [F] [sid:2742645621] parsing time ""Tuesday 20 Oct 1990"" as "Monday 02 Jan 2006": cannot parse ""Tuesday 20 Oct 1990"" as "Monday"
+[31m[parser.go:37::UsersTest/internal/parser.Read()][0m Feb 11 13:10:03.757 [F] [sid:3574877540] parsing time "Friday 3 Apr 1945" as "Monday 02 Jan 2006": cannot parse "3 Apr 1945" as "02"
+[31m[parser.go:37::UsersTest/internal/parser.Read()][0m Feb 11 13:11:24.115 [F] [sid:2627618909] parsing time "Friday 3 Apr 1945" as "Monday 02 Jan 2006": cannot parse "3 Apr 1945" as "02"
+[31m[parser.go:37::UsersTest/internal/parser.Read()][0m Feb 11 13:11:48.048 [F] [sid:820966465] parsing time "Friday 3 Apr 1945" as "Monday 02 Jan 2006": cannot parse "3 Apr 1945" as "02"
+[31m[parser.go:37::UsersTest/internal/parser.Read()][0m Feb 11 13:12:05.531 [F] [sid:3636610408] parsing time "Friday 3 Apr 2001" as "Monday 02 Jan 2006": cannot parse "3 Apr 2001" as "02"
+[31m[parser.go:37::UsersTest/internal/parser.Read()][0m Feb 11 13:13:08.733 [F] [sid:583479800] parsing time "Wednesday 1 Jul 1992" as "Monday 02 Jan 2006": cannot parse "1 Jul 1992" as "02"
+[parser.go:42::UsersTest/internal/parser.Read()] Feb 11 13:46:48.517 [I] [sid:2842899674] JSON was unmarshalled successfully
+[parser.go:42::UsersTest/internal/parser.Read()] Feb 11 13:49:07.119 [I] [sid:1378664481] JSON was unmarshalled successfully
+[parser.go:52::UsersTest/internal/parser.Read()] Feb 11 13:59:45.147 [I] [sid:1490550378] JSON was unmarshalled successfully
+[parser.go:52::UsersTest/internal/parser.Read()] Feb 11 14:02:53.707 [I] [sid:3787305477] JSON was unmarshalled successfully
+[parser.go:53::UsersTest/internal/parser.Read()] Feb 11 14:36:27.024 [I] [sid:3815591842] JSON was unmarshalled successfully
+[parser.go:53::UsersTest/internal/parser.Read()] Feb 11 14:40:33.511 [I] [sid:3028506244] JSON was unmarshalled successfully
+[parser.go:53::UsersTest/internal/parser.Read()] Feb 11 14:42:37.523 [I] [sid:2141236157] JSON was unmarshalled successfully
+[parser.go:68::UsersTest/internal/parser.GetUsers()] Feb 11 14:42:41.948 [I] [Addr:/users] [sid:2141236157] Get request
+[parser.go:53::UsersTest/internal/parser.Read()] Feb 11 14:43:03.300 [I] [sid:2322122923] JSON was unmarshalled successfully
+[parser.go:68::UsersTest/internal/parser.GetUsers()] Feb 11 14:43:09.154 [I] [Addr:[::1]:57006] [sid:2322122923] Get request
+[parser.go:53::UsersTest/internal/parser.Read()] Feb 11 14:48:28.514 [I] [sid:2144208329] JSON was unmarshalled successfully
+[handler.go:32::UsersTest/internal/handler.getFromId()] Feb 11 15:28:08.508 [I] [Addr:[::1]:59137] [sid:3773515545] Get request get user from ID
+[31m[handler.go:37::UsersTest/internal/handler.getFromId()][0m Feb 11 15:28:08.517 [E] [sid:3773515545] strconv.Atoi: parsing "{1}": invalid syntax
+[handler.go:32::UsersTest/internal/handler.getFromId()] Feb 11 15:28:20.902 [I] [Addr:[::1]:59137] [sid:3773515545] Get request get user from ID
+[parser.go:54::UsersTest/internal/parser.readUsers()] Feb 11 15:28:20.928 [I] [sid:3773515545] JSON was unmarshalled successfully
+[handler.go:32::UsersTest/internal/handler.getFromId()] Feb 11 15:28:28.363 [I] [Addr:[::1]:59137] [sid:3773515545] Get request get user from ID
+[handler.go:32::UsersTest/internal/handler.getFromId()] Feb 11 15:28:53.702 [I] [Addr:[::1]:59137] [sid:3773515545] Get request get user from ID
+[handler.go:31::UsersTest/internal/handler.getFromId()] Feb 11 15:31:39.955 [I] [Addr:[::1]:59286] [sid:900814389] Get request get user from ID
+[parser.go:54::UsersTest/internal/parser.readUsers()] Feb 11 15:31:39.981 [I] [sid:900814389] JSON was unmarshalled successfully
+[handler.go:64::UsersTest/internal/handler.getAllUsers()] Feb 11 15:31:56.987 [I] [Addr:[::1]:59286] [sid:900814389] Get request get all users
+[handler.go:20::UsersTest/internal/handler.Start()] Feb 11 16:24:31.418 [I] [sid:2968762709] Server is starting on port: 2112
+[handler.go:66::UsersTest/internal/handler.getAllUsers()] Feb 11 16:24:39.515 [I] [Addr:[::1]:64834] [sid:2968762709] Get request get all users
+[handler.go:33::UsersTest/internal/handler.getFromId()] Feb 11 16:24:47.074 [I] [Addr:[::1]:64834] [sid:2968762709] Get request get user from ID
+[handler.go:20::UsersTest/internal/handler.Start()] Feb 11 16:25:17.394 [I] [sid:839793398] Server is starting on port: 2112
+[handler.go:33::UsersTest/internal/handler.getFromId()] Feb 11 16:25:19.470 [I] [Addr:[::1]:64921] [sid:839793398] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:17:46.822 [I] [sid:828412077] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:17:52.921 [I] [Addr:[::1]:51282] [sid:828412077] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:21:46.126 [I] [sid:1682004735] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:21:50.006 [I] [Addr:[::1]:51476] [sid:1682004735] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:22:35.531 [I] [sid:1743325436] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:22:49.613 [I] [Addr:[::1]:51531] [sid:1743325436] Get request get user from ID
+[database.go:12::UsersTest/internal/database.GetFromId()] Feb 11 17:22:49.613 [I] [sid:1743325436] {postgres password users disable}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:24:28.013 [I] [sid:3743756721] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:24:29.903 [I] [Addr:[::1]:51620] [sid:3743756721] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:27:26.315 [I] [sid:94984326] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:27:29.124 [I] [Addr:[::1]:51845] [sid:94984326] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:27:55.748 [I] [sid:3736609818] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:27:57.801 [I] [Addr:[::1]:51876] [sid:3736609818] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:29:27.313 [I] [sid:971674304] Server is starting on port: 2112
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:29:35.969 [I] [sid:1529132832] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:29:40.677 [I] [Addr:[::1]:51984] [sid:1529132832] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:33:12.805 [I] [sid:1129523137] Server is starting on port: 2112
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:34:34.731 [I] [sid:679813119] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:34:36.054 [I] [Addr:[::1]:52467] [sid:679813119] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:35:15.305 [I] [sid:3912102782] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:35:20.054 [I] [Addr:[::1]:52565] [sid:3912102782] Get request get user from ID
+[database.go:11::UsersTest/internal/database.GetFromId()] Feb 11 17:35:20.061 [I] [sid:3912102782] {postgres password postgres users disable}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:39:15.265 [I] [sid:1248140750] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 17:39:16.626 [I] [Addr:[::1]:53107] [sid:1248140750] Get request get user from ID
+[database.go:11::UsersTest/internal/database.GetFromId()] Feb 11 17:39:16.626 [I] [sid:1248140750] {postgres password postgres users disable}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:50:46.128 [I] [sid:283018585] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:50:50.938 [I] [Addr:[::1]:54055] [sid:283018585] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:50:50.939 [I] [sid:283018585] {postgres password postgres users disable}
+[31m[database.go:44::UsersTest/internal/database.GetAllUsers()][0m Feb 11 17:50:51.213 [P] [sid:283018585] pq: РѕС€РёР±РєР° СЃРёРЅС‚Р°РєСЃРёСЃР° (РїСЂРёРјРµСЂРЅРѕРµ РїРѕР»РѕР¶РµРЅРёРµ: "$1")
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:51:59.998 [I] [sid:2350653147] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:52:01.818 [I] [Addr:[::1]:54124] [sid:2350653147] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:52:01.818 [I] [sid:2350653147] {postgres password postgres users disable}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:53:50.430 [I] [sid:1711278190] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:53:54.298 [I] [Addr:[::1]:54280] [sid:1711278190] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:53:54.298 [I] [sid:1711278190] {postgres password postgres users disable}
+[31m[database.go:44::UsersTest/internal/database.GetAllUsers()][0m Feb 11 17:53:54.527 [E] [sid:1711278190] pq: РѕС€РёР±РєР° СЃРёРЅС‚Р°РєСЃРёСЃР° (РїСЂРёРјРµСЂРЅРѕРµ РїРѕР»РѕР¶РµРЅРёРµ: "$1")
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:54:11.770 [I] [sid:1612123539] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:54:13.319 [I] [Addr:[::1]:54303] [sid:1612123539] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:54:13.320 [I] [sid:1612123539] {postgres password postgres users disable}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:54:56.884 [I] [sid:1048575139] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:54:57.917 [I] [Addr:[::1]:54347] [sid:1048575139] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:54:57.917 [I] [sid:1048575139] {postgres passwor postgres users disable}
+[31m[database.go:44::UsersTest/internal/database.GetAllUsers()][0m Feb 11 17:54:58.138 [E] [sid:1048575139] pq: пользователь "postgres" не прошёл проверку подлинности (по паролю)
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:56:32.799 [I] [Addr:[::1]:54431] [sid:1048575139] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:56:32.800 [I] [sid:1048575139] {postgres passwor postgres users disable}
+[31m[database.go:44::UsersTest/internal/database.GetAllUsers()][0m Feb 11 17:56:32.996 [E] [sid:1048575139] pq: пользователь "postgres" не прошёл проверку подлинности (по паролю)
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:56:43.016 [I] [sid:1430698812] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:56:46.658 [I] [Addr:[::1]:54447] [sid:1430698812] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:56:46.659 [I] [sid:1430698812] {postgres password postgres users disable}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:57:27.572 [I] [sid:1233617510] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:57:30.239 [I] [Addr:[::1]:54494] [sid:1233617510] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:57:30.240 [I] [sid:1233617510] {postgres password postgres users disable}
+[31m[database.go:45::UsersTest/internal/database.GetAllUsers()][0m Feb 11 17:57:30.910 [E] [sid:1233617510] pq: РѕС€РёР±РєР° СЃРёРЅС‚Р°РєСЃРёСЃР° (РїСЂРёРјРµСЂРЅРѕРµ РїРѕР»РѕР¶РµРЅРёРµ: "$1")
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:57:54.745 [I] [sid:594876792] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:57:55.846 [I] [Addr:[::1]:54525] [sid:594876792] Get request get all users
+[database.go:11::UsersTest/internal/database.openConn()] Feb 11 17:57:55.847 [I] [sid:594876792] {postgres password postgres users disable}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 17:59:02.965 [I] [sid:4254650742] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:59:07.159 [I] [Addr:[::1]:54593] [sid:4254650742] Get request get all users
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 17:59:17.818 [I] [Addr:[::1]:54593] [sid:4254650742] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 18:00:47.539 [I] [sid:4151513565] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 18:00:50.092 [I] [Addr:[::1]:54687] [sid:4151513565] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 18:02:46.030 [I] [sid:3231037824] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 18:02:54.685 [I] [Addr:[::1]:54811] [sid:3231037824] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 18:50:03.926 [I] [sid:4107453450] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 18:50:05.958 [I] [Addr:[::1]:57208] [sid:4107453450] Get request get all users
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 18:50:08.488 [I] [Addr:[::1]:57208] [sid:4107453450] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 18:57:09.358 [I] [sid:3706878424] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 18:57:18.010 [I] [Addr:[::1]:57750] [sid:3706878424] Get request get user from ID
+[database.go:30::UsersTest/internal/database.GetFromId()] Feb 11 18:57:18.146 [I] [sid:3706878424] 
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 18:59:30.151 [I] [sid:3181189909] Server is starting on port: 2112
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 19:56:33.348 [I] [sid:2658819414] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 19:56:35.588 [I] [Addr:[::1]:50912] [sid:2658819414] Get request get all users
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 19:57:50.706 [I] [Addr:[::1]:50912] [sid:2658819414] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 20:01:10.103 [I] [sid:2394736758] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:01:14.280 [I] [Addr:[::1]:51212] [sid:2394736758] Get request get all users
+[database.go:43::UsersTest/internal/database.GetAllUsers()] Feb 11 20:01:14.285 [I] [sid:2394736758] Test
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 20:02:20.106 [I] [sid:3996980984] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:02:22.686 [I] [Addr:[::1]:51311] [sid:3996980984] Get request get all users
+[database.go:43::UsersTest/internal/database.GetAllUsers()] Feb 11 20:02:22.692 [I] [sid:3996980984] [Id UserName FullName City BirthDate Department Gender ExperienceYears] <nil>
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 20:03:34.626 [I] [sid:80961976] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:03:36.076 [I] [Addr:[::1]:51406] [sid:80961976] Get request get all users
+[database.go:43::UsersTest/internal/database.GetAllUsers()] Feb 11 20:03:36.085 [I] [sid:80961976] [0xc0001385f0 0xc000138640 0xc000138690 0xc0001386e0 0xc000138730 0xc000138780 0xc0001387d0 0xc000138820] <nil>
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 20:06:35.244 [I] [sid:4248365611] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:06:36.490 [I] [Addr:[::1]:51671] [sid:4248365611] Get request get all users
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:06:50.525 [I] [Addr:[::1]:51671] [sid:4248365611] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 20:18:28.537 [I] [sid:286086453] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:18:31.044 [I] [Addr:[::1]:52475] [sid:286086453] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 20:46:56.213 [I] [sid:2305779853] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:46:59.015 [I] [Addr:[::1]:54388] [sid:2305779853] Get request get all users
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:47:15.891 [I] [Addr:[::1]:54388] [sid:2305779853] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 20:48:30.424 [I] [sid:3767182848] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 20:49:00.479 [I] [Addr:[::1]:54517] [sid:3767182848] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:10:26.487 [I] [sid:1421209637] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:10:37.534 [I] [Addr:[::1]:55862] [sid:1421209637] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:12:10.810 [I] [sid:2789998599] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:12:15.337 [I] [Addr:[::1]:55979] [sid:2789998599] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:15:27.202 [I] [sid:787519321] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:15:29.981 [I] [Addr:[::1]:56194] [sid:787519321] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:16:13.587 [I] [sid:148464787] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:16:15.893 [I] [Addr:[::1]:56252] [sid:148464787] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:46:57.694 [I] [sid:1827785531] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:47:01.748 [I] [Addr:[::1]:58887] [sid:1827785531] Get request get all users
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:47:13.071 [I] [Addr:[::1]:58887] [sid:1827785531] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:49:18.262 [I] [sid:2257305911] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:49:20.876 [I] [Addr:[::1]:59037] [sid:2257305911] Get request get all users
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:20.882 [I] [sid:2257305911] {0 Zebralead Benjamin Thompson Ransom Canyon 0001-01-01 00:00:00 +0000 UTC IT male 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:20.884 [I] [sid:2257305911] {1 Howlerwool James Jackson Cienega Springs 0001-01-01 00:00:00 +0000 UTC IT male 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:20.884 [I] [sid:2257305911] {2 Jaguarband Lily Brown Ransom Canyon 0001-01-01 00:00:00 +0000 UTC IT female 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:20.884 [I] [sid:2257305911] {3 Servantbald Ella Harris Lucien 0001-01-01 00:00:00 +0000 UTC IT female 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:20.885 [I] [sid:2257305911] {4 Edgesmall David Moore Campden 0001-01-01 00:00:00 +0000 UTC IT male 3}
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:49:45.944 [I] [Addr:[::1]:59037] [sid:2257305911] Get request get all users
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:45.948 [I] [sid:2257305911] {0 Zebralead Benjamin Thompson Ransom Canyon 0001-01-01 00:00:00 +0000 UTC IT male 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:45.948 [I] [sid:2257305911] {1 Howlerwool James Jackson Cienega Springs 0001-01-01 00:00:00 +0000 UTC IT male 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:45.948 [I] [sid:2257305911] {2 Jaguarband Lily Brown Ransom Canyon 0001-01-01 00:00:00 +0000 UTC IT female 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:45.948 [I] [sid:2257305911] {3 Servantbald Ella Harris Lucien 0001-01-01 00:00:00 +0000 UTC IT female 3}
+[database.go:64::UsersTest/internal/database.GetAllUsers()] Feb 11 21:49:45.948 [I] [sid:2257305911] {4 Edgesmall David Moore Campden 0001-01-01 00:00:00 +0000 UTC IT male 3}
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:52:14.555 [I] [sid:2891646477] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:52:15.886 [I] [Addr:[::1]:59230] [sid:2891646477] Get request get all users
+[handler.go:104::UsersTest/internal/handler.sortMap()] Feb 11 21:52:15.902 [I] [sid:2891646477] map[0:0xc000166700 1:0xc000166700 2:0xc000166700 3:0xc000166700 4:0xc000166700]
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:57:25.486 [I] [sid:1229549902] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:57:27.436 [I] [Addr:[::1]:59584] [sid:1229549902] Get request get all users
+[31m[database.go:37::UsersTest/internal/database.GetAllUsers()][0m Feb 11 21:57:27.445 [E] [sid:1229549902] near "$1": syntax error
+[handler.go:104::UsersTest/internal/handler.sortMap()] Feb 11 21:57:27.446 [I] [sid:1229549902] map[]
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 21:57:56.154 [I] [sid:3214654720] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 21:57:58.689 [I] [Addr:[::1]:59624] [sid:3214654720] Get request get all users
+[handler.go:104::UsersTest/internal/handler.sortMap()] Feb 11 21:57:58.703 [I] [sid:3214654720] map[0:0xc000138480 1:0xc000138500 2:0xc000138580 3:0xc000138600 4:0xc000138680]
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:09:13.728 [I] [sid:214231743] Server is starting on port: 2112
+[handler.go:75::UsersTest/internal/handler.getAllUsers()] Feb 11 22:09:16.928 [I] [Addr:[::1]:60342] [sid:214231743] Get request get all users
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:10:19.487 [I] [sid:3249703559] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:10:20.918 [I] [Addr:[::1]:60415] [sid:3249703559] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:11:05.898 [I] [sid:4290319356] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:11:08.348 [I] [Addr:[::1]:60468] [sid:4290319356] Get request get user from ID
+[31m[database.go:22::UsersTest/internal/database.GetFromId()][0m Feb 11 22:11:08.356 [E] [sid:4290319356] near "$1": syntax error
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:12:05.551 [I] [sid:4139448956] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:12:07.693 [I] [Addr:[::1]:60535] [sid:4139448956] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:12:27.481 [I] [sid:3447852245] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:12:57.111 [I] [Addr:[::1]:60595] [sid:3447852245] Get request get user from ID
+[31m[database.go:23::UsersTest/internal/database.GetFromId()][0m Feb 11 22:12:57.123 [E] [sid:3447852245] sql: Scan error on column index 4, name "BirthDate": unsupported Scan, storing driver.Value type time.Time into type *parser.SpecialDate
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:13:23.086 [I] [sid:2524163656] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:13:25.117 [I] [Addr:[::1]:60631] [sid:2524163656] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:16:48.904 [I] [sid:3634979923] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:17:01.031 [I] [Addr:[::1]:60813] [sid:3634979923] Get request get user from ID
+[database.go:28::UsersTest/internal/database.GetFromId()] Feb 11 22:17:01.040 [I] [sid:3634979923] 0001-01-01 00:00:00 +0000 UTC
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:25:44.280 [I] [sid:650106781] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:25:53.261 [I] [Addr:[::1]:61276] [sid:650106781] Get request get user from ID
+[database.go:34::UsersTest/internal/database.GetFromId()] Feb 11 22:25:53.380 [I] [sid:650106781] 0001-01-01 00:00:00 +0000 UTC
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:28:27.460 [I] [sid:2488294181] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:28:31.171 [I] [Addr:[::1]:61383] [sid:2488294181] Get request get user from ID
+[database.go:34::UsersTest/internal/database.GetFromId()] Feb 11 22:28:31.432 [I] [sid:2488294181] 1985-04-10 00:00:00 +0000 UTC
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:29:44.172 [I] [sid:3065620372] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:29:49.404 [I] [Addr:[::1]:61430] [sid:3065620372] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:30:13.512 [I] [sid:4191053476] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:30:15.662 [I] [Addr:[::1]:61450] [sid:4191053476] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:48:06.247 [I] [sid:1819856008] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:48:12.494 [I] [Addr:[::1]:62978] [sid:1819856008] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:49:22.540 [I] [sid:3746168296] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:49:28.716 [I] [Addr:[::1]:63099] [sid:3746168296] Get request get user from ID
+[handler.go:21::UsersTest/internal/handler.Start()] Feb 11 22:53:37.320 [I] [sid:246900690] Server is starting on port: 2112
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:55:42.217 [I] [Addr:[::1]:63689] [sid:246900690] Get request get user from ID
+[handler.go:78::UsersTest/internal/handler.getAllUsers()] Feb 11 22:55:45.248 [I] [Addr:[::1]:63689] [sid:246900690] Get request get all users
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:56:04.892 [I] [Addr:[::1]:63689] [sid:246900690] Get request get user from ID
+[31m[database.go:23::UsersTest/internal/database.GetFromId()][0m Feb 11 22:56:04.900 [E] [sid:246900690] sql: no rows in result set
+[31m[handler.go:52::UsersTest/internal/handler.getFromId()][0m Feb 11 22:56:04.915 [E] [sid:246900690] sql: no rows in result set
+[handler.go:34::UsersTest/internal/handler.getFromId()] Feb 11 22:56:11.930 [I] [Addr:[::1]:63689] [sid:246900690] Get request get user from ID
